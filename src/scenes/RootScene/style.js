@@ -1,6 +1,8 @@
-export default {
+import { StyleSheet } from 'react-vr'
+
+export default StyleSheet.create({
   welcome: {
-    backgroundColor: '#777879',
+    backgroundColor: '#676efc',
     fontSize: 0.8,
     fontWeight: '400',
     layoutOrigin: [0.5, 0.5],
@@ -10,4 +12,4 @@ export default {
     textAlignVertical: 'center',
     transform: [{translate: [0, 0, -3]}]
   }
-}
+})
