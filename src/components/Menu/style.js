@@ -6,10 +6,10 @@ export default StyleSheet.create({
     flexDirection: 'column',
     width: 2,
     alignItems: 'stretch',
-
     backgroundColor: 'transparent',
-
-    transform: { translate: [0, 0, -3] },
-    layoutOrigin: [0.5, 0.5]
+    layoutOrigin: [0.5, 0.5],
+    transform: [
+      { translate: [5, 2, -3] }
+    ]
   }
 })

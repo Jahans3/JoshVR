@@ -5,9 +5,10 @@ export default StyleSheet.create({
     margin: 0.1,
     height: 0.3,
     backgroundColor: '#e2625f',
-
-    transform: { translate: [0, 0, -3] },
-    layoutOrigin: [0.5, 0.5]
+    layoutOrigin: [0.5, 0.5],
+    transform: [
+      { translate: [0, 0, -3] }
+    ]
   },
   text: {
     fontSize: 0.2,
